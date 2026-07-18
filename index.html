@@ -158,6 +158,14 @@
   .mentora blockquote{font-family:'Cormorant Garamond',serif; font-style:italic; font-size:21px; color:var(--navy); border-left:2px solid var(--gold); padding-left:18px; margin:26px 0;}
   .stat-row{display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:28px;}
   .stat{text-align:left;}
+
+  /* SOCIOS / MENTORES DE APOIO */
+  .socios{background:var(--offwhite); padding-top:0;}
+  .socios-grid{display:grid; grid-template-columns:1fr 1fr; gap:32px; max-width:820px; margin:0 auto;}
+  .socio-card{display:flex; gap:16px; align-items:flex-start; text-align:left;}
+  .socio-card img{width:64px; height:64px; border-radius:50%; object-fit:cover; flex-shrink:0;}
+  .socio-card h4{font-family:'Cormorant Garamond',serif; font-weight:600; font-size:18px; color:var(--navy); margin-bottom:6px;}
+  .socio-card p{font-size:12.5px; color:#6a6a62; line-height:1.55; margin:0;}
   .stat .v{font-family:'Cormorant Garamond',serif; font-size:34px; color:var(--gold);}
   .stat .k{font-size:11.5px; text-transform:uppercase; letter-spacing:.5px; color:#666;}
 
@@ -250,6 +258,7 @@
     .hero{padding-top:110px;}
     .entrega-grid, .personas-grid, .lotes, .stat-row, .pratico-grid{grid-template-columns:1fr;}
     .mentora .container{grid-template-columns:1fr;}
+    .socios-grid{grid-template-columns:1fr;}
     .piramide-row{flex-wrap:wrap;}
     .cota-slot.ouro, .cota-slot.prata, .cota-slot.bronze{min-width:0; flex:1;}
     .sinais-grid{grid-template-columns:1fr;}
@@ -410,6 +419,27 @@
         <div class="stat"><div class="v">23</div><div class="k">Unidades de negócio simultâneas</div></div>
         <div class="stat"><div class="v">R$90M</div><div class="k">Faturamento mensal sob gestão</div></div>
         <div class="stat"><div class="v">500+</div><div class="k">Pessoas lideradas</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="socios">
+  <div class="container">
+    <div class="socios-grid">
+      <div class="socio-card">
+        <img src="diego-tonet.jpg" alt="Diego Tonet">
+        <div>
+          <h4>Diego Tonet</h4>
+          <p>Sócio e consultor empresarial na Inteiramente Rico. Mais de 15 anos de atuação em gestão de pessoas, desenvolvimento organizacional e formação de lideranças. Mestre em Educação pela PUC-PR e Master Coach com certificações internacionais, coordena consultores e acompanha projetos de estruturação de gestão, governança e crescimento sustentável.</p>
+        </div>
+      </div>
+      <div class="socio-card">
+        <img src="tatiane-vogler.jpg" alt="Tatiane Vogler">
+        <div>
+          <h4>Tatiane Vogler</h4>
+          <p>Sócia da Inteiramente Rico. Mais de 18 anos de experiência em indústrias multinacionais e cooperativas agroindustriais como Agrária e Castrolanda, atuando em estratégia, marketing, S&OP e administração comercial. Pós-graduada em Lean Six Sigma e MBA em Gestão Competitiva e Business Intelligence, une visão analítica e orientação para resultados.</p>
+        </div>
       </div>
     </div>
   </div>
